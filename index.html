@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Play Hockey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'btn-clr': '#FF4240',
+                    }
+                }
+            }
+        }
+
+    </script>
+
+</head>
+
+<style>
+    .font-monrope {
+        font-family: 'Manrope', sans-serif;
+        ;
+    }
+
+    .image-1 {
+        background: url(Images/2.png);
+    }
+
+    .image-2 {
+        background: url(Images/3.png);
+    }
+
+    .image-3 {
+        background: url(Images/4.png);
+    }
+</style>
+
+<body class="font-monrope">
+
+    <header class="md:container md:mx-auto">
+
+        <!-- Navbar section start -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="sm:text-xl lg:text-4xl font-extrabold">Hockey <span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="text-[#FF4240]"><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <img class="sm:flex hidden lg:mx-6" src="Images/search-icon.png" alt="">
+                    <a class="btn bg-btn-clr text-white px-6">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Nav end -->
+
+        <!-- Slider or Carousel section start -->
+        <div class="slider">
+            <div class="carousel w-full">
+                <!-- <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full"/>
+                    <div class="w-[566px] h-[135px] top-[600px] bg-[#131318] text-white p-8">
+                        <h1 class="text-2xl font-extrabold " >Meet all the heroes from the field</h1>
+                        <p class="font-medium text-base text">Wayne Gretzky, Mario Lemieux, Gordie Howe, Bobby Orr, Sidney Crosby, Alex Ovechkin, Zdeno Chara.</p>
+                    </div>
+                
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+     -->
+                <!-- 2nd slider -->
+                <!-- <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>  -->
+
+                <!-- <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide2" class="btn btn-circle">❮</a> 
+                      <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                  </div> -->
+
+
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Progress section -->
+    <section class="md:container md:mx-auto">
+        <div class="pt-32 pb-12 text-center">
+            <h1 class=" pb-6 lg:text-[#131318] font-extrabold text-xl lg:text-4xl">Professional Hockeys Club</h1>
+            <p class="mb-12 lg:mb-20 text-[rgba(19, 19, 24, 0.6)]">Professional hockey requires a high level of skill
+                and <br>
+                proficiency in the sport.
+            </p>
+        </div>
+        <!-- Progress-1 -->
+        <div class="sm:col-span-1  items-center text-center  lg:flex gap-x-36 ">
+            <div class="">
+                <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                <div class="pt-6">
+                    <h1 class=" text-[#131318] font-semibold text-xl">Prayer Facility</h1>
+                    <p class=" text-[rgba(19, 19, 24, 0.6)]">Professional hockey requires <br> skill in the sport.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Progress-2 -->
+            <div class="mt-16 lg:mt-0">
+                <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                <div class="pt-6">
+                    <h1 class=" text-[#131318] font-semibold text-xl">Prayer Facility</h1>
+                    <p class=" text-[rgba(19, 19, 24, 0.6)]">Professional hockey requires <br> skill in the sport.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Progress-3 -->
+            <div class="mt-16 lg:mt-0">
+                <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                <div class="pt-6">
+                    <h1 class=" text-[#131318] font-semibold text-xl">Prayer Facility</h1>
+                    <p class=" text-[rgba(19, 19, 24, 0.6)]">Professional hockey requires <br> skill in the sport.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Progress-4 -->
+            <div class="mt-16 lg:mt-0">
+                <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                <div class="pt-6">
+                    <h1 class=" text-[#131318] font-semibold text-xl">Prayer Facility</h1>
+                    <p class="text-[rgba(19, 19, 24, 0.6)]">Professional hockey requires <br> skill in the sport.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="md:container md:mx-auto">
+        <div class="pt-32 pb-12 text-center">
+            <h1 class=" pb-6 lg:text-[#131318] font-extrabold text-xl lg:text-4xl">Program Sections</h1>
+            <p class="mb-12 lg:mb-20 text-[rgba(19, 19, 24, 0.6)]">
+                Creating a hockey program involves organizing various <br> sections to ensure a effective approach.
+            </p>
+        </div>
+
+        <div class="col-span-1">
+            <div class="col-span-1">
+                <div class=" flex flex-col p-6 lg:flex-row bg-no-repeat lg:pl-16 bg-[rgba(19, 19, 24, 0.5)]">
+
+                    <!-- image-1 -->
+                    <div class="image-1 pb-6 col-span-1 pl-6 pt-6 bg-no-repeat lg:pt-24 lg:pl-10 rounded-2xl pr-20 lg:pb-10">
+                        <h1 class=" text-xl font-extrabold  text-white lg:text-[28px] lg:pb-6">Junior Program</h1>
+                        <p class="pb-6  text-white text-base">A hockey junior program typically refers to a developmental <br>
+                            pathway or system designed to nurture and train young and aspiring hockey players.</p>
+                        <a class="btn bg-btn-clr text-white px-6">Register Now!</a>
+                    </div>
+
+                    <!-- image-2 -->
+                    <div
+                        class="image-2 pt-6 pb-6 mt-6 lg:mt-0 pl-6 grid-row-1 col-span-1 bg-no-repeat lg:pl-10 lg:pt-24 rounded-2xl pr-20 bg-[rgba(19, 19, 24, 0.5)]">
+                        <h1 class=" text-xl font-extrabold  text-white lg:text-[28px] pb-6">Junior Program</h1>
+                        <p class="pb-6  text-white">A hockey junior program typically refers to a developmental <br>
+                            pathway or system designed to nurture and train young and aspiring hockey players.</p>
+                        <a class="btn bg-btn-clr text-white px-6">Register Now!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- image-3 -->
+            <div class=" md:mx-auto mt-6 col-span-1 lg:col-span-2">
+                <div class="image-3 col-span-2 bg-no-repeat pt-24 pl-10 lg:ml-16 rounded-2xl pb-10">
+                    <div class="">
+                        <h1 class="pb-6 text-xl font-extrabold  text-white lg:text-[28px]">Junior Program</h1>
+                        <p class="mb-9  text-white">A hockey junior program typically refers to a developmental <br>
+                            pathway or system designed to nurture and train young and aspiring hockey players.</p>
+                        <a class="btn bg-btn-clr text-white px-6">Register Now!</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+    <div class="pt-32 pb-12 text-center">
+        <h1 class=" pb-6 lg:text-[#131318] font-extrabold text-xl lg:text-4xl">Program Sections</h1>
+        <p class="mb-12 lg:mb-20 text-[rgba(19, 19, 24, 0.6)]">
+            Creating a hockey program involves organizing various <br> sections to ensure a effective approach.
+        </p>
+    </div>
+
+
+    <section>
+
+    </section>
+
+
+
+</body>
+
+</html>
